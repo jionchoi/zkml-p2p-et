@@ -1,0 +1,9 @@
+[submodule "external/deep-prove"]
+	path = external/deep-prove
+	url = https://github.com/Lagrange-Labs/deep-prove.git
+[submodule "external/zkCNN"]
+	path = external/zkCNN
+	url = https://github.com/TAMUCrypto/zkCNN.git
+[submodule "external/zkpet"]
+	path = external/zkpet
+	url = https://github.com/CaixiangFan/zkpet.git
