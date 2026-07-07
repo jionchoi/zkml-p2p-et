@@ -1,0 +1,4 @@
+function,duration_ms
+instantiate_witness_ctx_for_chunk,14.418
+Prover::prove_requant,4.542
+prove_tables,185.312

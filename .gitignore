@@ -1,0 +1,31 @@
+# Large dataset (regenerable / downloaded separately)
+data/electricity.csv
+
+# EZKL / prover working files
+notebooks/**/_work/
+*.srs
+*.compiled
+*.key
+witness.json
+proof.json
+settings.json
+
+# Python
+__pycache__/
+*.pyc
+
+# figures: keep only the comparison/ folder
+figures/*
+!figures/comparison/
+
+# Deep Prove temp output inside each notebook model folder
+notebooks/**/deepprove_output/
+notebooks/**/_work_dp/
+
+# prep (training log / scratch)
+prep/
+
+# results: keep only the deepprove_* and ezkl_fused_* CSVs (3 models each)
+results/*
+!results/deepprove_*.csv
+!results/ezkl_fused_*.csv
